@@ -2,9 +2,9 @@
 
 ## 메인 기술 스택
 
-'''bash
+```bash
 React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
-'''
+```
 
 ### 기타 기술 스택
 
