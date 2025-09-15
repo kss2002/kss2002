@@ -2,11 +2,11 @@
 
 ## 메인 기술 스택
 
-React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
+> React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ## 기타 기술 스택
 
-npm / superbase / vercel / scss / tailwind css ...
+> npm / superbase / vercel / scss / tailwind css ...
 
 ## 써본 IDE
 
