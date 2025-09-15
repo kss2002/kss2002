@@ -4,11 +4,11 @@
 
 > React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
-## 기타 기술 스택
+### 기타 기술 스택
 
 > npm / superbase / vercel / scss / tailwind css ...
 
-## 써본 IDE
+### 써본 IDE
 
 - vscode
 - Eclipse
@@ -16,7 +16,7 @@
 - Visualstudio
 - Android Studio
 
-## 동아리 활동
+### 동아리 활동
 
 - GDG
 - 카카오 유니브
