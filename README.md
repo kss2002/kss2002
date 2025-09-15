@@ -1,10 +1,20 @@
 # Hi there 👋
 
-![약간의 본문 텍스트 추가](https://github.com/user-attachments/assets/aaafa829-1a93-41f2-be29-e36742020e58)
+## 메인 기술 스택
+
+React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ## 기타 기술 스택
 
 npm / superbase / vercel / scss / tailwind css ...
+
+## 써본 IDE
+
+- vscode
+- Eclipse
+- IntelliJ
+- Visualstudio
+- Android Studio
 
 ## 동아리 활동
 
