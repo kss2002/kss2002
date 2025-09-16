@@ -1,6 +1,6 @@
-# Hi there 👋
+## Hi there 👋
 
-## 메인 기술 스택
+### 메인 기술 스택
 
 ```bash
 React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
