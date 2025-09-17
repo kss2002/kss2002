@@ -12,9 +12,9 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 동아리 활동
 
-- GDG
-- 카카오 유니브
-- 멋쟁이사자처럼
+- GDG : 섹션 진행
+- 카카오 유니브 : 운영진
+- 멋쟁이사자처럼 
 
 ## 자기소개 노션페이지
 
