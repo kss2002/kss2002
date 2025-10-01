@@ -8,12 +8,10 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 오픈소스 컨트리뷰팅 활동
 
-<img width="218" height="53" alt="suspensive" src="https://github.com/user-attachments/assets/af46f345-c389-42a6-93f2-fbe58edf4a34" />
-
-[toss suspensive]
+[![suspensive](https://github.com/user-attachments/assets/af46f345-c389-42a6-93f2-fbe58edf4a34)](https://github.com/kss2002/suspensive)
 
 ```bash
-https://github.com/toss/suspensive
+// close of pr
 https://github.com/toss/suspensive/pull/1755
 ```
 
