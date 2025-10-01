@@ -14,7 +14,18 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 - GDG : 섹션 진행
 - 카카오 유니브 : 운영진
-- 멋쟁이사자처럼 
+- 멋쟁이사자처럼
+
+### 오픈소스 컨트리뷰팅 활동
+
+<img width="218" height="53" alt="suspensive" src="https://github.com/user-attachments/assets/af46f345-c389-42a6-93f2-fbe58edf4a34" />
+
+[toss suspensive]
+
+```bash
+https://github.com/toss/suspensive
+https://github.com/toss/suspensive/pull/1755
+```
 
 ## 자기소개 노션페이지
 
