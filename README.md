@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 🚀
 
 ### 메인 기술 스택
 
@@ -8,12 +8,7 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 오픈소스 컨트리뷰팅 활동
 
-[![suspensive](https://github.com/user-attachments/assets/af46f345-c389-42a6-93f2-fbe58edf4a34)](https://github.com/kss2002/suspensive)
-
-```bash
-// close of pr
-https://github.com/toss/suspensive/pull/1755
-```
+[Toss/suspensive](https://github.com/toss/suspensive/pull/1755)
 
 ### 기타 기술 스택
 
