@@ -8,7 +8,7 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 오픈소스 컨트리뷰팅 활동 😊
 
-[Toss/suspensive](https://github.com/toss/suspensive/pull/1755)
+[Toss/suspensive](https://github.com/toss/suspensive/graphs/contributors)
 [Toss/granite](https://github.com/toss/granite/graphs/contributors)
 
 ### 기타 기술 스택
