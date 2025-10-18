@@ -26,5 +26,5 @@ vercel / superbase / tailwind css / npm / yarn / pnpm
 https://www.notion.so/knowwarehouse/10fc8c450f4d8010bd15d243a23bac89
 
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/lines/kss2002?pet-id=1" width="1000" height="120"/>
+  <img src="https://render.gitanimals.org/lines/kss2002?pet-id=1" width="1000" height="360"/>
 </a>
