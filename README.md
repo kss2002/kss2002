@@ -21,7 +21,7 @@ vercel / superbase / tailwind css / npm / yarn / pnpm
 - 카카오 유니브 : 운영진
 - 멋쟁이사자처럼
 
-## 자기소개 노션페이지 [단축 URL]
+## 자기소개 노션페이지
 
 https://buly.kr/7FSFpWo
 
