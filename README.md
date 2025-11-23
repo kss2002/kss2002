@@ -25,7 +25,7 @@ vercel / superbase / tailwind css / npm / yarn / pnpm
 
 https://buly.kr/7FSFpWo
 
-<br/><br/>
+---
 
 <p align="center">
   <picture>
@@ -35,6 +35,7 @@ https://buly.kr/7FSFpWo
   </picture>
 </p>
 
+<div align="center"> 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=kss2002&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/kss2002"
@@ -42,4 +43,4 @@ https://buly.kr/7FSFpWo
   height="300"
 />
 </a>
-```
+</div>
