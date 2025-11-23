@@ -25,6 +25,16 @@ vercel / superbase / tailwind css / npm / yarn / pnpm
 
 https://buly.kr/7FSFpWo
 
+<br/><br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
+    <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
+  </picture>
+</p>
+
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=kss2002&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/kss2002"
@@ -32,3 +42,4 @@ https://buly.kr/7FSFpWo
   height="300"
 />
 </a>
+```
