@@ -1,4 +1,14 @@
-## 안녕하세요 🚀
+## 안녕하세요 👋
+
+<div align="center"> 
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=kss2002&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/kss2002"
+  width="600"
+  height="300"
+/>
+</a>
+</div>
 
 ### 메인 기술 스택 🔥
 
@@ -8,12 +18,12 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 오픈소스 컨트리뷰팅 활동 😊
 
-[Toss/suspensive](https://github.com/toss/suspensive/graphs/contributors)
+[Toss/suspensive](https://github.com/toss/suspensive/graphs/contributors) |
 [Toss/granite](https://github.com/toss/granite/graphs/contributors)
 
 ### 기타 기술 스택
 
-vercel / superbase / tailwind css / npm / yarn / pnpm
+**Vercel / Tailwind css / Package Manager / superbase**
 
 ### 동아리 활동
 
@@ -34,13 +44,3 @@ https://buly.kr/7FSFpWo
     <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
   </picture>
 </p>
-
-<div align="center"> 
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=kss2002&utm_content=farm">
-<img
-  src="https://render.gitanimals.org/farms/kss2002"
-  width="600"
-  height="300"
-/>
-</a>
-</div>
