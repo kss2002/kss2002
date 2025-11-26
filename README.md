@@ -31,7 +31,7 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 - 카카오 유니브 : 운영진
 - 멋쟁이사자처럼
 
-**<a href="https://buly.kr/7FSFpWo" target="_blank">자기소개 노션페이지</a>**
+<a href="https://buly.kr/7FSFpWo" target="_blank">자기소개 노션페이지</a>
 
 ---
 
