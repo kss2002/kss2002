@@ -42,3 +42,17 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
     <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
   </picture>
 </p>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<!-- Profile Summary Cards (안정적) -->
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kss2002&theme=radical)
+
+<!-- Activity Graph -->
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kss2002&theme=react-dark)
+
+</div>
