@@ -18,6 +18,14 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 
 ### 오픈소스 컨트리뷰팅 활동 😊
 
+<!-- 토스 -->
+
+<div align="center">
+
+[![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kss2002?org=toss&year_list=1)
+
+</div>
+
 [Toss/suspensive](https://github.com/toss/suspensive/graphs/contributors) |
 [Toss/granite](https://github.com/toss/granite/graphs/contributors)
 
@@ -43,16 +51,10 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
   </picture>
 </p>
 
-## 📊 GitHub Stats
-
 <div align="center">
 
 <!-- Profile Summary Cards (안정적) -->
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kss2002&theme=radical)
-
-<!-- Activity Graph -->
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kss2002&theme=react-dark)
 
 </div>
