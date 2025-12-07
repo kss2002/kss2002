@@ -58,3 +58,6 @@ React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kss2002&theme=radical)
 
 </div>
+
+### GitHube Gist
+https://gist.github.com/kss2002
