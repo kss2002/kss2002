@@ -29,7 +29,7 @@ Vite / Vercel / Tailwind css / npm,yarn / superbase
 - GDG > 2024년 3월 ~ 2025년 9월
 - 카카오 유니브 > 2024년 6월 ~ 12월 / 2025년 2월 ~ 12월 `운영진`
 - 멋쟁이사자처럼 > 2025년 3월 ~ 2025년 12월 / 2026년 1월 ~ `운영진`
-- 오픈소스기여 모임 > 2025년 12월 26일 ~ 2026년 1월 25일 [링크](https://github.com/opensource-contributors-group/opensource-contributors)
+- 오픈소스기여 모임 10기 > 2025년 12월 26일 ~ 2026년 1월 25일 [링크](https://github.com/opensource-contributors-group/opensource-contributors)
 
 ### 프로젝트 활동
 
