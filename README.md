@@ -1,37 +1,46 @@
 ## 안녕하세요. 좋은 코드를 짜는 것을 고민하는 프론트엔드 개발자 김성수입니다. 👋
 
-### 메인 기술 스택
+### Main Technology Stack
 
 ```
 React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
 ```
 
-### 기타 기술 스택
+### Other Technology Stacks
 
 ```
 Vite / Vercel / Tailwind css / npm,yarn / superbase
 ```
 
-### 오픈소스 컨트리뷰팅 활동
+### Open Source Country Booting Activities
 
-<!-- 토스 -->
+<!-- toss -->
 
-<div align="center">
+<div align="">
 
-[![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kss2002?org=toss&year_list=1)
+[![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/toss)
 
-[Toss/suspensive](https://github.com/toss/suspensive/graphs/contributors) | [Toss/granite](https://github.com/toss/granite/graphs/contributors)
+<details>
+<summary id="datail"><strong>Contribution Details</strong></summary>
+  
+- [suspensive PR](https://github.com/toss/suspensive/pulls?q=kss2002)
+- [suspensive Issues](https://github.com/toss/suspensive/issues?q=kss2002)
+- [frontend-fundamentals PR](https://github.com/toss/frontend-fundamentals/pulls?q=kss2002)
+- [frontend-fundamentals Issues](https://github.com/toss/frontend-fundamentals/issues?q=kss2002)
+- [granite PR](https://github.com/toss/granite/pulls?q=kss2002+)
+- [granite Issues](https://github.com/toss/granite/issues?q=kss2002)
 
+</details>
 </div>
 
-### 외부 활동
+### Outside Activities
 
 - GDG > 2024년 3월 ~ 2025년 9월
 - 카카오 유니브 > 2024년 6월 ~ 12월 / 2025년 2월 ~ 12월 `운영진`
 - 멋쟁이사자처럼 > 2025년 3월 ~ 2025년 12월 / 2026년 1월 ~ `운영진`
 - 오픈소스기여 모임 10기 > 2025년 12월 26일 ~ 2026년 1월 25일 [링크](https://github.com/opensource-contributors-group/opensource-contributors)
 
-### 프로젝트 활동
+### Project Activities
 
 - 카카오 단풍톤 > 2024년 11월 1일 ~ 12월 10일 `팀장` [깃허브 링크](https://github.com/kss2002/2024_DANPOONG_TEAM_60_FE)
 - 멋쟁이사자처럼 해커톤 > 2025년 7월 22일 ~ 8월 26일 [깃허브 링크](https://github.com/kss2002/domo-fe)
@@ -39,8 +48,8 @@ Vite / Vercel / Tailwind css / npm,yarn / superbase
 - XRPL 해커톤 > 2025년 9월 14일 ~ 9월 20일 [깃허브 링크](https://github.com/kss2002/roasis-front)
 - 멋쟁이사자처럼 간지톤 > 2025년 11월 1일 ~ 11월 22일 `팀장` [깃허브 링크](https://github.com/kss2002/SCamp)
 
-### 연락 수단
-<div align="center">
+### Contact
+<div align="">
 <a href="know.warehouse02@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href="sc00310@naver.com"><img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a> <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </div>
 
