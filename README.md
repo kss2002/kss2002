@@ -39,6 +39,11 @@ Vite / Vercel / Tailwind css / npm,yarn / superbase
 - XRPL 해커톤 > 2025년 9월 14일 ~ 9월 20일 [깃허브 링크](https://github.com/kss2002/roasis-front)
 - 멋쟁이사자처럼 간지톤 > 2025년 11월 1일 ~ 11월 22일 `팀장` [깃허브 링크](https://github.com/kss2002/SCamp)
 
+### 연락 수단
+<div align="center">
+<a href="know.warehouse02@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href="sc00310@naver.com"><img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a> <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</div>
+
 ### GitHube Gist
 
 https://gist.github.com/kss2002
