@@ -78,11 +78,3 @@ https://gist.github.com/kss2002
     <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
   </picture>
 </p>
-
-<div align="center">
-
-<!-- Profile Summary Cards (안정적) -->
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kss2002)
-
-</div>
