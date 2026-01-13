@@ -1,22 +1,55 @@
-## 안녕하세요. 좋은 코드를 짜는 것을 고민하는 프론트엔드 개발자 김성수입니다. 👋
+# Hello. I'm Kim seong su. I'm thinking about a good code.
 
-### Main Technology Stack
+## Activities & Communities
 
-```
-React.js / Next.js / JavaScript / TypeScript / Ruby on Rails / Git / GitHub
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Other Technology Stacks
+### Community Activities
 
-```
-Vite / Vercel / Tailwind css / npm,yarn / superbase
-```
+- **GDG** `2024.03 ~ 2025.09`
+- **카카오 유니브** `2024.06 ~ 2024.12`
+- **카카오 유니브** `2025.02 ~ 2025.12` 🎖️ `운영진`
+- **멋쟁이사자처럼** `2025.03 ~ 2025.12`
+- **멋쟁이사자처럼** `2026.01 ~` 🎖️ `운영진`
+- **오픈소스기여 모임 10기** `2025.12. 26 ~ 2026.01.25`  
+  [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 
-### Open Source Country Booting Activities
+</td>
+<td width="50%" valign="top">
 
-<!-- toss -->
+### Project Activities
 
-<div align="">
+- **카카오 단풍톤** `2024.11.01 ~ 12.10` 👑 `팀장`  
+  [🔗 GitHub](https://github.com/kss2002/2024_DANPOONG_TEAM_60_FE)
+- **멋쟁이사자처럼 해커톤** `2025.07.22 ~ 08.26`  
+  [🔗 GitHub](https://github.com/kss2002/domo-fe)
+- **카카오 시즌톤** `2025.08.18 ~ 09.07`  
+  [🔗 GitHub](https://github.com/kss2002/2025_SEASONTHON_TEAM_63_FE)
+- **XRPL 해커톤** `2025.09.14 ~ 09.20`  
+  [🔗 GitHub](https://github.com/kss2002/roasis-front)
+- **멋쟁이사자처럼 간지톤** `2025.11.01 ~ 11.22` 👑 `팀장`  
+  [🔗 GitHub](https://github.com/kss2002/SCamp)
+
+</td>
+</tr>
+</table>
+
+<div align="left">
+
+## Main Tech
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,nodejs,md,ruby,rails,html,css" height="60" />
+
+## Tools & Sub Tech
+
+<img src="https://skillicons.dev/icons?i=git,github,bash,figma,notion,vite,webpack,vercel,netlify,tailwind,emotion,scss" height="50" />
+<img src="https://skillicons.dev/icons?i=py,npm,yarn,pnpm,supabase,vscode,idea,pycharm,eclipse" height="50" />
+
+## Open Source Country Booting Activities
+
+<div align="left">
 
 [![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/toss)
 
@@ -33,31 +66,32 @@ Vite / Vercel / Tailwind css / npm,yarn / superbase
 </details>
 </div>
 
-### Outside Activities
+## Contact
 
-- GDG > 2024년 3월 ~ 2025년 9월
-- 카카오 유니브 > 2024년 6월 ~ 12월 / 2025년 2월 ~ 12월 `운영진`
-- 멋쟁이사자처럼 > 2025년 3월 ~ 2025년 12월 / 2026년 1월 ~ `운영진`
-- 오픈소스기여 모임 10기 > 2025년 12월 26일 ~ 2026년 1월 25일 [링크](https://github.com/opensource-contributors-group/opensource-contributors)
-
-### Project Activities
-
-- 카카오 단풍톤 > 2024년 11월 1일 ~ 12월 10일 `팀장` [깃허브 링크](https://github.com/kss2002/2024_DANPOONG_TEAM_60_FE)
-- 멋쟁이사자처럼 해커톤 > 2025년 7월 22일 ~ 8월 26일 [깃허브 링크](https://github.com/kss2002/domo-fe)
-- 카카오 시즌톤 > 2025년 8월 18일 ~ 9월 7일 [깃허브 링크](https://github.com/kss2002/2025_SEASONTHON_TEAM_63_FE)
-- XRPL 해커톤 > 2025년 9월 14일 ~ 9월 20일 [깃허브 링크](https://github.com/kss2002/roasis-front)
-- 멋쟁이사자처럼 간지톤 > 2025년 11월 1일 ~ 11월 22일 `팀장` [깃허브 링크](https://github.com/kss2002/SCamp)
-
-### Contact
-know.warehouse02@gmail.com | sc00310@naver.com
-
-### GitHube Gist
-
-https://gist.github.com/kss2002
+<p align="left">
+  <a href="https://gist.github.com/kss2002">
+    <img src="https://img.shields.io/badge/Gist-181717?style=for-the-badge&logo=github&logoColor=white" alt="Gist"/>
+  </a>
+  <a href="mailto:know.warehouse02@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="mailto:sc00310@naver.com">
+    <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver"/>
+  </a>
+    <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a">
+    <img src="https://img.shields.io/badge/linkedin-0966c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
+</p>
 
 <!-- 2025/12/12 주석처리 [노션 다듬고 다시 주석풀기]
 <a href="https://buly.kr/7FSFpWo" >자기소개 노션페이지</a>
 -->
+
+## GitHub Trophies
+
+<div align="left">
+  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-davevad93s-projects.vercel.app/?username=kss2002&theme=radical&rank=-B&column=-1" alt="kss2002 "/></a></p>
+</div>
 
 ---
 
@@ -78,3 +112,7 @@ https://gist.github.com/kss2002
     <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
   </picture>
 </p>
+
+<div align="center">
+  <i>🔥 From <a href="https://github.com/kss2002">kss2002</a></i>
+</div>
