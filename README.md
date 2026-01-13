@@ -13,7 +13,7 @@
 - **카카오 유니브** `2025.02 ~ 2025.12` 🎖️ `운영진`
 - **멋쟁이사자처럼** `2025.03 ~ 2025.12`
 - **멋쟁이사자처럼** `2026.01 ~` 🎖️ `운영진`
-- **오픈소스기여 모임 10기** `2025.12. 26 ~ 2026.01.25`  
+- **오픈소스기여 모임 10기** `2025.12.26 ~ 2026.01.25`  
   [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 
 </td>
@@ -47,7 +47,7 @@
 <img src="https://skillicons.dev/icons?i=git,github,bash,figma,notion,vite,webpack,vercel,netlify,tailwind,emotion,scss" height="50" />
 <img src="https://skillicons.dev/icons?i=py,npm,yarn,pnpm,supabase,vscode,idea,pycharm,eclipse" height="50" />
 
-## Open Source Country Booting Activities
+## Open Source Country Booting
 
 <div align="left">
 
@@ -78,7 +78,7 @@
   <a href="mailto:sc00310@naver.com">
     <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver"/>
   </a>
-    <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a">
+  <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a">
     <img src="https://img.shields.io/badge/linkedin-0966c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
   </a>
 </p>
