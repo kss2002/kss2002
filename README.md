@@ -2,9 +2,9 @@
 
 ## Activities & Communities
 
-<table>
+<table align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="60%" valign="top">
 
 ### Community Activities
 
@@ -17,7 +17,7 @@
   [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 
 </td>
-<td width="50%" valign="top">
+<td width="60%" valign="top">
 
 ### Project Activities
 
