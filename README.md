@@ -5,8 +5,7 @@
 <table align="center">
 <tr>
 <td width="50%" valign="top">
-
-### Community Activities
+<h3>Community Activities</h3>
 
 - **GDG** `2024.03 ~ 2025.09`
 - **카카오 유니브** `2024.06 ~ 2024.12`
@@ -14,14 +13,14 @@
 - **멋쟁이사자처럼** `2025.03 ~ 2025.12`
 - **멋쟁이사자처럼** `2026.01 ~` 🎖️ `운영진`
 - **오픈소스기여 모임 10기** `2025.12.26 ~ 2026.01.25`  
-  [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
-
+ [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 </td>
-<td width="70%" valign="top">
 
-### Project Activities
+<td width="60%" valign="top">
 
-- **카카오 단풍톤** `2024.11.01 ~ 12.10` 👑 `팀장`  
+<h3>Project Activities</h3>
+
+- **카카오 단풍톤** `2024.11.01 ~ 12.10` / `팀장`  
   [🔗 GitHub](https://github.com/kss2002/2024_DANPOONG_TEAM_60_FE)
 - **멋쟁이사자처럼 해커톤** `2025.07.22 ~ 08.26`  
   [🔗 GitHub](https://github.com/kss2002/domo-fe)
@@ -29,9 +28,8 @@
   [🔗 GitHub](https://github.com/kss2002/2025_SEASONTHON_TEAM_63_FE)
 - **XRPL 해커톤** `2025.09.14 ~ 09.20`  
   [🔗 GitHub](https://github.com/kss2002/roasis-front)
-- **멋쟁이사자처럼 간지톤** `2025.11.01 ~ 11.22` 👑 `팀장`  
-  [🔗 GitHub](https://github.com/kss2002/SCamp)
-
+- **멋쟁이사자처럼 간지톤** `2025.11.01 ~ 11.22` / `팀장`  
+ [🔗 GitHub](https://github.com/kss2002/SCamp)
 </td>
 </tr>
 </table>
