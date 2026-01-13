@@ -4,7 +4,7 @@
 
 <table align="center">
 <tr>
-<td width="60%" valign="top">
+<td width="50%" valign="top">
 
 ### Community Activities
 
