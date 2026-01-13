@@ -2,7 +2,7 @@
 
 ## Activities & Communities
 
-<table align="center">
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 <h3>Community Activities</h3>
