@@ -17,7 +17,7 @@
   [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 
 </td>
-<td width="60%" valign="top">
+<td width="70%" valign="top">
 
 ### Project Activities
 
