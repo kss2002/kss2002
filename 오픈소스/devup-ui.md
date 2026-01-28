@@ -45,9 +45,7 @@ bun install
 bun run build
 ```
 
-> 개발 서버 실행
-
-먼저
+**개발 서버 실행**
 
 ## Landing 페이지 (공식 사이트)
 
