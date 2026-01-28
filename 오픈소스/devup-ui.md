@@ -1,4 +1,4 @@
-## 오픈소스에 대하여 정리합니다.
+## devup-ui
 
 공식 깃허브 -> https://github.com/dev-five-git/devup-ui
 
@@ -6,18 +6,10 @@
 
 ### DevUp UI 로컬 개발 환경 설정
 
-필수 요구사항  
- ┌───────────┬────────────────────────────────────────────────────────────────┐  
- │ 도구 │ 설치 방법 │  
- ├───────────┼────────────────────────────────────────────────────────────────┤  
- │ Node.js │ https://nodejs.org (LTS 권장) │  
- ├───────────┼────────────────────────────────────────────────────────────────┤  
- │ Bun │ curl -fsSL https://bun.sh/install | bash │  
- ├───────────┼────────────────────────────────────────────────────────────────┤  
- │ Rust │ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh │  
- ├───────────┼────────────────────────────────────────────────────────────────┤  
- │ wasm-pack │ cargo install wasm-pack │  
- └───────────┴────────────────────────────────────────────────────────────────┘
+Node.js -> https://nodejs.org (LTS 권장)
+Bun -> curl -fsSL https://bun.sh/install
+Rust -> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+wasm-pack -> cargo install wasm-pack
 
 ### 설치 확인
 
@@ -26,7 +18,7 @@ bun --version
 rustc --version  
 wasm-pack --version
 
-프로젝트 설정
+> 프로젝트 설정
 
 ## 1. 레포지토리 클론
 
