@@ -7,7 +7,7 @@
 ### DevUp UI 로컬 개발 환경 설정
 
 Node.js -> https://nodejs.org (LTS 권장)
-Bun -> curl -fsSL https://bun.sh/install
+Bun -> curl -fsSL https://bun.sh/install | bash
 Rust -> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 wasm-pack -> cargo install wasm-pack
 
