@@ -68,16 +68,19 @@
 
 <p align="left">
   <a href="https://gist.github.com/kss2002">
-    <img src="https://img.shields.io/badge/Gist-181717?style=for-the-badge&logo=github&logoColor=white" alt="Gist"/>
+  Gist
   </a>
+  |
   <a href="mailto:know.warehouse02@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  Gmail
   </a>
+  |
   <a href="mailto:sc00310@naver.com">
-    <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver"/>
+  Naver
   </a>
+  |
   <a href="https://www.linkedin.com/in/seong-su-kim-5b606338a">
-    <img src="https://img.shields.io/badge/linkedin-0966c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  Linkdein
   </a>
 </p>
 
