@@ -13,7 +13,12 @@
 - **멋쟁이사자처럼** `2025.03 ~ 2025.12`
 - **멋쟁이사자처럼** `2026.01 ~` 🎖️ `운영진`
 - **오픈소스기여 모임 10기** `2025.12.26 ~ 2026.01.25`  
- [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
+  [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
+
+<h3>Product Activities</h3>
+
+- **ShortsGen** [🚀 Site](https://shorts-demodev.vercel.app)
+
 </td>
 
 <td width="60%" valign="top">
@@ -49,17 +54,23 @@
 
 <div align="left">
 
-[![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/toss)
+[![Toss Profile](https://img.shields.io/badge/Toss_Contributor-0064FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/toss) [![Dev-five](https://img.shields.io/badge/DevFive_Contributor-5a44ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dev-five-git)
 
 <details>
 <summary id="datail"><strong>Contribution Details</strong></summary>
-  
+
+toss
+
 - [suspensive PR](https://github.com/toss/suspensive/pulls?q=kss2002)
 - [suspensive Issues](https://github.com/toss/suspensive/issues?q=kss2002)
 - [frontend-fundamentals PR](https://github.com/toss/frontend-fundamentals/pulls?q=kss2002)
 - [frontend-fundamentals Issues](https://github.com/toss/frontend-fundamentals/issues?q=kss2002)
 - [granite PR](https://github.com/toss/granite/pulls?q=kss2002+)
 - [granite Issues](https://github.com/toss/granite/issues?q=kss2002)
+
+devup-five
+
+- [devup-ui](https://github.com/dev-five-git/devup-ui/graphs/contributors)
 
 </details>
 </div>
