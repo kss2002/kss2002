@@ -2,7 +2,8 @@
 
 ## Activities & Communities
 
-<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<div align="center">
+<table width="100%" border="0" cellpadding="10" cellspacing="0" align="center">
 <tr>
 <td width="50%" valign="top">
 <h3>Community Activities</h3>
@@ -38,6 +39,7 @@
 </td>
 </tr>
 </table>
+</div>
 
 <div align="left">
 
