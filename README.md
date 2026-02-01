@@ -2,10 +2,7 @@
 
 ## Activities & Communities
 
-<table width="100%" border="0" cellpadding="10" cellspacing="0">
-<tr>
-<td width="50%" valign="top" align="left">
-<h3>Community Activities</h3>
+### Community Activities
 
 - **GDG** `2024.03 ~ 2025.09`
 - **카카오 유니브** `2024.06 ~ 2024.12`
@@ -15,15 +12,11 @@
 - **오픈소스기여 모임 10기** `2025.12.26 ~ 2026.01.25`  
   [🔗 Repository](https://github.com/opensource-contributors-group/opensource-contributors)
 
-<h3>Product Activities</h3>
+### Product Activities
 
 - **ShortsGen** [🚀 Site](https://shorts-demodev.vercel.app)
 
-</td>
-
-<td width="50%" valign="top" align="left">
-
-<h3>Project Activities</h3>
+### Project Activities
 
 - **카카오 단풍톤** `2024.11.01 ~ 12.10` / `팀장`  
   [🔗 GitHub](https://github.com/kss2002/2024_DANPOONG_TEAM_60_FE)
@@ -34,10 +27,7 @@
 - **XRPL 해커톤** `2025.09.14 ~ 09.20`  
   [🔗 GitHub](https://github.com/kss2002/roasis-front)
 - **멋쟁이사자처럼 간지톤** `2025.11.01 ~ 11.22` / `팀장`  
- [🔗 GitHub](https://github.com/kss2002/SCamp)
-</td>
-</tr>
-</table>
+  [🔗 GitHub](https://github.com/kss2002/SCamp)
 
 <div align="left">
 
