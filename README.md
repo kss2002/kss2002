@@ -4,7 +4,7 @@
 
 <table width="100%" align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="60%" valign="top">
 <h3>Community Activities</h3>
 
 - **GDG** `2024.03 ~ 2025.09`
