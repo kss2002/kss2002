@@ -2,10 +2,9 @@
 
 ## Activities & Communities
 
-<div align="center">
-<table width="100%" border="0" cellpadding="10" cellspacing="0" align="center">
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="left">
 <h3>Community Activities</h3>
 
 - **GDG** `2024.03 ~ 2025.09`
@@ -22,7 +21,7 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="left">
 
 <h3>Project Activities</h3>
 
@@ -39,7 +38,6 @@
 </td>
 </tr>
 </table>
-</div>
 
 <div align="left">
 
