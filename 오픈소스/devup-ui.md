@@ -64,3 +64,11 @@ bun run --filter next dev
 ```bash
 bun run --filter vite dev
 ```
+
+### lint fix
+
+> 세미클론을 제거하는 lint fix 명령어
+
+```bash
+bun run lint:fix
+```
