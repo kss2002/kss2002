@@ -1,31 +1,95 @@
-name: Generate Pac-Man Contribution Graph
+name: Profile Assets (3D Contrib, Snake, Pac-Man)
 
 on:
   schedule:
     - cron: '0 18 * * 0' # 매주 일요일 (한국시간 월요일 오전 3시)
   workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  generate:
+  build-assets:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: Platane/snk/svg-only@v3
+      # 1. Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          github_user_name: kss2002
-          outputs: |
-            .github/images/github-contribution-grid-pacman.svg?type=pacman
-            .github/images/github-contribution-grid-pacman-dark.svg?palette=github-dark&type=pacman
+          fetch-depth: 0
+
+      # 2. Ensure .github/images exists
+      - name: Ensure .github/images exists
+        run: |
+          mkdir -p .github/images
+          [ -f .github/images/.gitkeep ] || touch .github/images/.gitkeep
+
+      # 3. Generate GitHub 3D Contributions
+      - name: Generate GitHub 3D Contributions
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit & Push
+      # 4. Copy GitHub 3D Contributions to .github/images
+      - name: Copy GitHub 3D Contributions to .github/images
+        if: always()
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "🟡 Update Pac-Man contribution graph" || echo "No changes to commit"
-          git push
+          mkdir -p .github/images
+          if compgen -G "profile-3d-contrib/*.svg" > /dev/null; then
+            cp -v profile-3d-contrib/*.svg .github/images/
+          fi
+          rm -rf profile-3d-contrib || true
+
+      # 5. Generate GitHub Contribution Grid Snake
+      - name: Generate GitHub Contribution Grid Snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            .github/images/github-contribution-grid-snake.svg
+            .github/images/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 6. Generate GitHub Contribution Grid Pac-Man
+      - name: Generate GitHub Contribution Grid Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 7. Copy GitHub Contribution Grid Pac-Man to .github/images
+      - name: Copy GitHub Contribution Grid Pac-Man to .github/images
+        if: always()
+        run: |
+          mkdir -p .github/images
+          if [ -f dist/pacman-contribution-graph.svg ]; then
+            cp -v dist/pacman-contribution-graph.svg .github/images/github-contribution-grid-pacman.svg
+          fi
+          if [ -f dist/pacman-contribution-graph-dark.svg ]; then
+            cp -v dist/pacman-contribution-graph-dark.svg .github/images/github-contribution-grid-pacman-dark.svg
+          fi
+
+      # 8. List All Generated Images
+      - name: List All Generated Images
+        if: always()
+        run: ls -al .github/images || true
+
+      # 9. Commit & Push All Images
+      - name: Commit & Push All Images
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .github/images/
+          git commit -m "chore(images): update 3D contribs, snake & pacman [skip ci]" || echo "No changes to commit"
+          git push origin ${{ github.ref_name }} --force || echo "Push failed, but continuing workflow"
