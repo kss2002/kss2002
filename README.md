@@ -19,9 +19,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
-    <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/profile-3d-contrib/profile-green-animate.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/.github/images/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/.github/images/profile-green-animate.svg" />
+    <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/kss2002/kss2002/main/.github/images/profile-green-animate.svg" />
   </picture>
 </p>
 
