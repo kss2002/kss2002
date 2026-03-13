@@ -1,0 +1,78 @@
+name: 버그 리포트
+description: 버그나 오류를 발견했을 때 제보해주세요.
+title: '[BUG] '
+labels: ['bug']
+assignees:
+  - kss2002
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그를 발견해주셔서 감사합니다! 아래 항목을 최대한 자세히 작성해주세요.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 버그 설명
+      description: 어떤 버그가 발생했나요?
+      placeholder: 버그에 대한 명확하고 간결한 설명을 작성해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 방법
+      description: 버그를 재현하는 단계를 작성해주세요.
+      placeholder: |
+        1. '...' 페이지에 접속한다.
+        2. '...' 항목을 클릭한다.
+        3. 아래로 스크롤한다.
+        4. 오류가 발생한다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대하는 동작
+      description: 정상적으로 동작했을 때 어떻게 보여야 하나요?
+      placeholder: 정상 동작에 대한 설명을 작성해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 스크린샷
+      description: 해당되는 경우, 문제를 설명하는 스크린샷을 첨부해주세요.
+      placeholder: 이미지를 직접 드래그하거나 붙여넣기하세요.
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 브라우저
+      description: 어떤 브라우저에서 발생했나요?
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - 기타
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 환경 정보
+      description: OS, 브라우저 버전 등 추가 환경 정보를 입력해주세요.
+      placeholder: |
+        - OS: macOS 14.0
+        - 브라우저: Chrome 120
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 추가 정보
+      description: 버그와 관련된 추가적인 정보가 있다면 작성해주세요.
