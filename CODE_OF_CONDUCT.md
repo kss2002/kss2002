@@ -70,4 +70,4 @@
 
 이 행동 강령에 관련한 일반적인 질문에 대한 대답은 https://www.contributor-covenant.org/faq를 참고할 수 있습니다.
 
-번역본은 https://www.contributor-covenant.org/translations에서 볼 수 있습니다.
+번역본은 https://www.contributor-covenant.org/translations 에서 볼 수 있습니다.
