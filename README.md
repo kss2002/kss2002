@@ -1,12 +1,32 @@
-# Portfolio
+## Hello 👋
 
-### https://portfolio-kss.netlify.app
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### Portfolio
+
+**https://portfolio-kss.netlify.app**
+
+</td>
+
+<td width="50%" valign="top">
+
+### Dashboard
+
+**https://github-gamma-seven.vercel.app**
+
+</td>
+</tr>
+</table>
+
+<!--
 ### GitHub Trophies
 
 <div align="left">
   <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-davevad93s-projects.vercel.app/?username=kss2002&theme=radical&rank=-B&column=-1" alt="kss2002 "/></a></p>
 </div>
+-->
 
 <!-- Pac-Man Contribution Graph -->
 <p align="center">
