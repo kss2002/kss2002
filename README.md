@@ -1,5 +1,10 @@
 ## Hello 👋
 
+|                **Portfolio**                |                  **Dashboard**                  |
+| :-----------------------------------------: | :---------------------------------------------: |
+| [Deploy](https://portfolio-kss.netlify.app) | [Deploy](https://github-gamma-seven.vercel.app) |
+
+<!--
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -19,6 +24,7 @@
 </td>
 </tr>
 </table>
+-->
 
 <!--
 ### GitHub Trophies
