@@ -2,7 +2,7 @@
 
 |                **Portfolio**                |                  **Dashboard**                  |
 | :-----------------------------------------: | :---------------------------------------------: |
-| [Deploy](https://portfolio-kss.netlify.app) | [Deploy](https://github-gamma-seven.vercel.app) |
+| [Link](https://portfolio-kss.netlify.app) | [Link](https://github-gamma-seven.vercel.app) |
 
 <!--
 <table>
