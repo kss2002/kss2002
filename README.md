@@ -1,30 +1,8 @@
-## Hello 👋
+## Hello. I'm Developer 👋
 
-|                **Portfolio**                |                  **Dashboard**                  |
-| :-----------------------------------------: | :---------------------------------------------: |
-| [Link](https://portfolio-kss.netlify.app) | [Link](https://github-gamma-seven.vercel.app) |
-
-<!--
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Portfolio
-
-**https://portfolio-kss.netlify.app**
-
-</td>
-
-<td width="50%" valign="top">
-
-### Dashboard
-
-**https://github-gamma-seven.vercel.app**
-
-</td>
-</tr>
-</table>
--->
+|           **Portfolio**           |             **Dashboard**             |
+| :-------------------------------: | :-----------------------------------: |
+| https://portfolio-kss.netlify.app | https://github-gamma-seven.vercel.app |
 
 <!--
 ### GitHub Trophies
@@ -43,6 +21,7 @@
   </picture>
 </p>
 
+<!-- GitHub Profile Contributions Chart // 주석처리
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kss2002/kss2002/main/.github/images/profile-night-rainbow.svg" />
@@ -54,3 +33,4 @@
 <div align="center">
   <i>🔥 From <a href="https://github.com/kss2002">kss2002</a></i>
 </div>
+-->
