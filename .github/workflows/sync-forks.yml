@@ -2,7 +2,7 @@ name: Sync all forks
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # ⑍일 UTC 00:00 (한국시간 오전 9시)
+    - cron: '0 0 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -13,17 +13,30 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
-          set -e
           echo "Fetching list of forks..."
-          # 내 계정의 레포 중 fork인 것만 자동으로 추출 (source 아닌 것 제외)
           gh api --paginate "user/repos?type=owner&per_page=100" \
             --jq '.[] | select(.fork == true) | .full_name' > forks.txt
           echo "Found $(wc -l < forks.txt) forks:"
           cat forks.txt
           echo "-----------------------------"
+          success=0
+          failed=0
+          failed_list=""
           while IFS= read -r repo; do
             [ -z "$repo" ] && continue
-            echo "Syncing $repo ..."
-            gh repo sync "$repo" || echo "WARNING: $repo sync failed (머지 충돌 가능성)"
+            echo "::group::Syncing $repo"
+            if gh repo sync "$repo"; then
+              echo "OK: $repo synced"
+              success=$((success+1))
+            else
+              echo "WARNING: $repo sync failed (merge conflict or access denied)"
+              failed=$((failed+1))
+              failed_list="$failed_list $repo"
+            fi
+            echo "::endgroup::"
           done < forks.txt
-          echo "Done."
+          echo "-----------------------------"
+          echo "Done. success=$success failed=$failed"
+          if [ -n "$failed_list" ]; then
+            echo "Failed repos:$failed_list"
+          fi
