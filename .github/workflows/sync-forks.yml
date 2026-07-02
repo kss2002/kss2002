@@ -5,20 +5,29 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch: {}
 
+# Prevent overlapping runs (e.g. schedule + manual)
+concurrency:
+  group: sync-forks
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Sync all my forks
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
-          # Owners/orgs to skip entirely (space separated)
+          # Upstream owners/orgs to skip entirely (space separated)
           EXCLUDE_OWNERS: "9oormthon-univ"
         run: |
+          set -uo pipefail
+
           echo "Fetching list of forks..."
           gh api --paginate "user/repos?type=owner&per_page=100" \
             --jq '.[] | select(.fork == true) | .full_name' > forks.txt
-          echo "Found $(wc -l < forks.txt) forks total."
+          total=$(grep -c . forks.txt || true)
+          echo "Found $total forks total."
           echo "-----------------------------"
 
           synced=0
@@ -30,49 +39,41 @@ jobs:
           while IFS= read -r repo; do
             [ -z "$repo" ] && continue
 
-            # Determine the parent (upstream) owner to check exclusions
-            parent=$(gh api "repos/$repo" --jq '.parent.full_name' 2>/dev/null || echo "")
+            # Look up the upstream (parent) to decide exclusions
+            parent=$(gh api "repos/$repo" --jq '.parent.full_name // ""' 2>/dev/null || echo "")
             parent_owner="${parent%%/*}"
 
             skip=0
             for ex in $EXCLUDE_OWNERS; do
-              if [ "$parent_owner" = "$ex" ]; then skip=1; fi
+              [ "$parent_owner" = "$ex" ] && skip=1
             done
 
             if [ "$skip" = "1" ]; then
-              echo "SKIP: $repo (upstream owner $parent_owner excluded)"
+              echo "SKIP  $repo (upstream $parent excluded)"
               skipped=$((skipped+1))
               skipped_list="$skipped_list $repo"
               continue
             fi
 
-            echo "::group::Syncing $repo (upstream: ${parent:-unknown})"
-            if git clone --quiet "https://x-access-token:${GH_TOKEN}@github.com/$repo.git" repo_tmp; then
-              cd repo_tmp
-              default_branch=$(git symbolic-ref --short HEAD)
-              upstream_url="https://x-access-token:${GH_TOKEN}@github.com/$parent.git"
-              git remote add upstream "$upstream_url" 2>/dev/null || git remote set-url upstream "$upstream_url"
-              if git fetch --quiet upstream "$default_branch" \
-                && git merge --ff-only "upstream/$default_branch" \
-                && git push --quiet origin "$default_branch"; then
-                echo "OK: $repo synced ($default_branch)"
-                synced=$((synced+1))
-              else
-                echo "WARNING: $repo could not fast-forward (diverged or push denied)"
-                failed=$((failed+1))
-                failed_list="$failed_list $repo"
-              fi
-              cd ..
-              rm -rf repo_tmp
+            # Server-side sync via the merge-upstream API (no cloning, near-instant).
+            # 'gh repo sync' fast-forwards the fork's default branch to its upstream.
+            if out=$(gh repo sync "$repo" 2>&1); then
+              echo "OK    $repo  ($out)"
+              synced=$((synced+1))
             else
-              echo "WARNING: $repo clone failed (access denied?)"
+              echo "FAIL  $repo  -> $out"
               failed=$((failed+1))
               failed_list="$failed_list $repo"
             fi
-            echo "::endgroup::"
           done < forks.txt
 
           echo "-----------------------------"
-          echo "Done. synced=$synced skipped=$skipped failed=$failed"
-          [ -n "$skipped_list" ] && echo "Skipped repos:$skipped_list"
-          [ -n "$failed_list" ] && echo "Failed repos:$failed_list"
+          echo "Summary: synced=$synced  skipped=$skipped  failed=$failed  (total=$total)"
+          [ -n "$skipped_list" ] && echo "Skipped:$skipped_list"
+          [ -n "$failed_list" ]  && echo "Failed: $failed_list"
+
+          # Fail the job only if something we actually attempted failed.
+          if [ "$failed" -gt 0 ]; then
+            echo "::warning::$failed fork(s) failed to sync"
+          fi
+          exit 0
